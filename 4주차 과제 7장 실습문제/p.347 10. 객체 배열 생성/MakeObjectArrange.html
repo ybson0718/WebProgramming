@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8">
+  <title>book 객체 배열 만들기</title>
+</head>
+<body>
+<h3>book 객체 배열 만들기</h3><hr>
+<script>
+    var high=0;
+    var highTitle;
+for(let i=0; i<5; i++){
+    let information=prompt("콤마(,)로 분리하면서 책제목 저자 가격 순으로 입력");
+    var inform=information.split(",");
+
+    var book = new Object();
+
+    book.title = inform[0];
+    book.author = inform[1];
+    book.price = inform[2];
+
+    document.write("book : ");
+    document.write(book.title + ", ");
+    document.write(book.author + ", ");
+    document.write(book.price);
+    document.write("\n");
+    document.write("<hr>");
+
+    if(book.price>high){
+        high=book.price;
+        highTitle=book.title;
+    }
+}
+  </script>
+</body>
+</html>
