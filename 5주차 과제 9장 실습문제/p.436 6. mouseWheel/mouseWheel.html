@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <title>onwheel</title>
+    <script>
+        function wheel(e, obj){
+            if(e.wheelDelta < 0){  //휠 아래로 굴릴 때
+                obj.width -= e.wheelDelta*0.05;  //이미지 확대
+                obj.height -= e.wheelDelta*0.05;
+            }
+            else if(e.wheelDelta > 0){  //휠 위로 굴릴 때
+                obj.width -= e.wheelDelta*0.05;  //이미지 축소
+                obj.height -= e.wheelDelta*0.05;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h3>마우스 휠을 이용한 이미지 확대/축소</h3>
+    <hr>
+    <p>이미지 위에 휠을 위로 굴리면 이미지가 축소되고 아래로 굴리면 이미지가 확대됩니다.</p>
+    <img src = "spongebob.png" alt = "이미지" width = "100" height = "100" onwheel = "wheel(event,this)">
+</body>
+</html>
