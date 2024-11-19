@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>이름 만들기</title>
+</head>
+<body>
+<h3>손영빈 이름 만들기</h3>
+<hr>
+<canvas id="myCanvas" 
+style="background-color:aliceblue"
+width="500" height="300"></canvas>
+<script>
+let canvas = document.getElementById("myCanvas");
+let context = canvas.getContext("2d");
+context.beginPath();
+context.moveTo(120, 50);
+context.lineTo(70, 110);
+context.moveTo(120,50);
+context.lineTo(170,110);
+context.moveTo(120,100);
+context.lineTo(120,130);
+context.moveTo(50,130);
+context.lineTo(190,130);
+context.moveTo(70,150);
+context.lineTo(70,180);
+context.moveTo(70,180);
+context.lineTo(170,180);
+context.strokeStyle="magenta"; 
+context.stroke();
+
+context.beginPath();
+context.arc(230, 80, 30, 0, 2*Math.PI, false);
+context.moveTo(260,70);
+context.lineTo(300,70);
+context.moveTo(260,90);
+context.lineTo(300,90);
+context.moveTo(300,40);
+context.lineTo(300,120);
+context.stroke();
+
+context.beginPath();
+context.arc(270, 155, 30, 0, 2*Math.PI, false);
+context.stroke();
+
+context.beginPath();
+context.moveTo(340, 50);
+context.lineTo(340, 120);
+context.moveTo(340, 80);
+context.lineTo(400, 80);
+context.moveTo(400, 50);
+context.lineTo(400, 120);
+context.moveTo(340, 120);
+context.lineTo(400, 120);
+context.moveTo(440, 40);
+context.lineTo(440, 120);
+context.moveTo(350, 150);
+context.lineTo(350, 180);
+context.moveTo(350, 180);
+context.lineTo(450, 180);
+context.moveTo
+context.stroke();
+
+
+
+
+
+context.strokeStyle="magenta"; // 선의 색
+context.stroke(); // 경로를 캔버스에 그린다
+</script> 
+</body>
+</html>
