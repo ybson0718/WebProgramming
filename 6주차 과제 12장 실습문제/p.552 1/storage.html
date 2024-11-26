@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>이름과 학번 입력</title>
+<script>
+    function store(){
+        if(!window.sessionStorage){
+            alert("세션 스토리지를 지원하지 않습니다.");
+            return;
+        }
+        var name = document.getElementById("name");
+        var sid = document.getElementById("sid");
+        sessionStorage.setItem(name.value, sid.value);
+    }
+</script>
+</head>
+<body>
+<h3>이름과 학번 입력</h3>
+<hr>
+<form>
+이름 <input id="name" type="text"><br>
+학번 <input id="sid" type="text">
+<button type="button" id="save" onclick="store()">스토리지에 저장</button>
+</form>
+<br>
+<a href="onStorage.html" target="_self">이름과 학번 검색 페이지로</a>
+</body>
+</html>
