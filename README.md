@@ -57,6 +57,11 @@ href="https://github.com/ybson0718/WebProgramming/tree/main/%ED%8F%B4%EB%8D%94%2
 <img width="903" alt="gitTime" src="https://github.com/user-attachments/assets/2d3c0ce2-84f8-4f7a-85f7-6a638d126c56">
 <hr>
 
+<h2>파일 수정으로 인한 History 업데이트</h2>
+-5주차: 파일 내용 변경으로 인한 History 업데이트
+<img src="https://github.com/user-attachments/assets/9cfbf420-4848-4e6c-a251-a009c9a8e399">
+<p>"5주차 과제 제출" 때 업로드 하였지만, "수업 시간에 내주신 과제들 제출" 때 파일을 건드려서 같이 커밋된 상황</p>
+
 <h2>커밋 내용 실수로 인한 가독성 떨어지는 부분</h2>
 
 - 7주차: 커밋을 "6주차 과제 업로드"라고 커밋 내용 잘못 올림  
