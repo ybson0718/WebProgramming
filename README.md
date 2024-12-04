@@ -59,7 +59,7 @@ href="https://github.com/ybson0718/WebProgramming/tree/main/%ED%8F%B4%EB%8D%94%2
 
 <h2>커밋 내용 실수로 인한 가독성 떨어지는 부분</h2>
 
-- 7주차: 커밋을 "6주차 과제 업로드"라고 커밋 내용 잘못 올림.
+- 7주차: 커밋을 "6주차 과제 업로드"라고 커밋 내용 잘못 올림  
 <img src="https://github.com/user-attachments/assets/318310c9-900b-4448-a165-971acdc6e008">
 
 
