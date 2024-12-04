@@ -39,7 +39,13 @@
 <a href="https://github.com/ybson0718/WebProgramming/tree/main/AI%EB%A1%9C%20ppt%20%EB%A7%8C%EB%93%A4%EA%B8%B0(node%20js)">AI로 ppt만들기(주제: node js)</a>, 
 <a href="https://github.com/ybson0718/WebProgramming/tree/main/line%2C%20rect%2C%20arc%EB%A1%9C%20%EC%9E%90%EC%8B%A0%EC%9D%98%20%EC%9D%B4%EB%A6%84%EC%9D%84%20%EA%B7%B8%EB%A6%AC%EA%B8%B0">line, rect, arc로 자신의 이름 그리기</a>, 
 <a href="https://github.com/ybson0718/WebProgramming/tree/main/%ED%8C%8C%EC%9D%BC%2036%EA%B0%9C%20%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94%20%ED%8E%98%EC%9D%B4%EC%A7%80">파일 36를 연결하는 페이지 만들기</a>
-
+<br>
+2024/11/26 7주차 과제 제출:
+<a href="https://github.com/ybson0718/WebProgramming/tree/main/6%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C%2012%EC%9E%A5%20%EC%8B%A4%EC%8A%B5%EB%AC%B8%EC%A0%9C">6주차 과제 12장 실습문제</a>,
+<a href="https://github.com/ybson0718/WebProgramming/tree/main/6%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C%2012%EC%9E%A5%20%EC%98%A4%ED%94%88%EC%B1%8C%EB%A6%B0%EC%A7%80">6주차 과제 12장 오픈챌린지</a>,
+<a href="https://github.com/ybson0718/WebProgramming/tree/main/6%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C%2013%EC%9E%A5%20%EC%8B%A4%EC%8A%B5%EB%AC%B8%EC%A0%9C">6주차 과제 13장 실습문제</a>,
+<a href="https://github.com/ybson0718/WebProgramming/tree/main/6%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C%2013%EC%9E%A5%20%EC%98%A4%ED%94%88%EC%B1%8C%EB%A6%B0%EC%A7%80">6주차 과제 13장 오픈챌린지</a>,
+<br>
 <hr>
 <h2>commit에 언급된 'N주차'는 스스로 알아보기 쉽게 하려고 정한 것으로 실제 주차와는 다를 수 있음</h2>
 <hr>
