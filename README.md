@@ -49,7 +49,7 @@
 href="https://github.com/ybson0718/WebProgramming/tree/main/%ED%8F%B4%EB%8D%94%20%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EB%A7%8C%EB%93%A4%EA%B8%B0">폴더 리스트 만들기</a>
 <br>
 <hr>
-<h2>commit에 언급된 'N주차'는 스스로 알아보기 쉽게 하려고 정한 것으로 실제 주차와는 다를 수 있음</h2>
+<h2>commit에 언급된 'N주차'는 과제 순서를 나타내는 용도로, 스스로 알아보기 쉽게 하려고 정한 것으로 실제 주차와는 다릅니다.</h2>
 <hr>
 <h2>파일 수정으로 인한 History 업데이트</h2>
 
