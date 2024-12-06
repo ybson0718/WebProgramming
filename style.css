@@ -1,0 +1,52 @@
+/* Additional Custom Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+/* Bootstrap Collapse 충돌 방지 */
+.collapse:not(.show) {
+    display: none !important;
+}
+.collapse.show {
+    display: block !important;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar a {
+  color: #22c55e;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 8px 12px;
+}
+
+.navbar a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  flex-wrap: nowrap;
+}

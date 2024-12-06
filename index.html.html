@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVER 소개</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation  -->
+    <div class="navbar navbar-expand-lg navbar-light bg-white shadow">
+        <div class="container-fluid"></div>
+        <a class="navbar-brand text-green-600 font-bold" href="https://www.naver.com/">네이버</a>
+        <div class="navbar-links col-12">
+          <a class="nav-link text-green-700 hover:text-green-500" href="#about">회사 소개</a>
+          <a class="nav-link text-green-700 hover:text-green-500" href="#services">서비스</a>
+          <a class="nav-link text-green-700 hover:text-green-500" href="#tech">대표 기술</a>
+          <a class="nav-link text-green-700 hover:text-green-500" href="#ethics">기업 윤리</a>
+          <a class="nav-link text-green-700 hover:text-green-500" href="#contact">문의하기</a>
+        </div>
+      </div>
+    
+    <!-- Hero Section -->
+    <section class="bg-green-600 text-white text-center py-20">
+        <div class="container">
+            <h1 class="text-4xl font-bold">네이버에 소개 사이트에 오신 것을 환영합니다</h1>
+            <p class="mt-4">기술, 검색, 혁신의 길잡이</p>
+            <button class="btn btn-light mt-5" onclick="scrollToSection('about')">더 알아보기</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20">
+        <div class="container">
+            <h2 class="text-3xl font-bold text-green-600">회사 소개</h2>
+            <p class="mt-4">글로벌 테크 기업, 네이버는 기술과 서비스로 세상의 모든 가능성을 연결합니다. 함께하는 사용자와 비즈니스 파트너들이 다가오는
+                내일을 앞서 구현하고 글로벌 시장에서
+                더 큰 성장을 이룰 수 있도록 지원합니다.</p>
+                <hr>
+            <p class="mt-4">경계없이 도전하고,
+                거침없이 혁신하는
+                네이버는 국경과 분야의 경계를 넘나드는
+                혁신적인 서비스와 독창적인 콘텐츠로
+                국내는 물론 일본, 북미, 유럽 등 비즈니스의 영역을
+                글로벌로 넓혀가고 있습니다.</p>
+            <hr>
+            <a class="text-green-600 font-bold" href="https://www.navercorp.com/naver/naverMain">네이버(주) 기업소개 사이트</a>
+        </section>
+        </div>
+
+    
+    <!-- Services Section -->
+<section id="services" class="bg-gray-50 py-20">
+    <div class="container">
+        <h2 class="text-3xl font-bold text-green-600">주요 서비스</h2>
+        <div class="row mt-4">
+            <!-- 서비스 카드 -->
+            <div class="col-12 mb-4">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h5 class="card-title font-bold">검색 서비스</h5>
+                        <p class="card-text">사용자 맞춤형 빠르고 정확한 검색 결과 제공.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-4">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h5 class="card-title font-bold">AI 솔루션</h5>
+                        <p class="card-text">AI 기술로 더 똑똑하고 효율적인 서비스를 제공합니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-4">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h5 class="card-title font-bold">클라우드 서비스</h5>
+                        <p class="card-text">기업을 위한 안전하고 확장 가능한 클라우드 인프라 제공.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-4">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h5 class="card-title font-bold">라인(글로벌 모바일 플랫폼)</h5>
+                        <p class="card-text">글로벌 모바일 플랫폼으로 성장하고 있는 LINE은 메신저를 넘어 사람과 사람, 기업, 서비스를 연결하는 허브 역할을 하고 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-4">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h5 class="card-title font-bold">밴드(모바일 커뮤니티 서비스)</h5>
+                        <p class="card-text">그룹형 소셜네트워크서비스(SNS) 밴드(BAND)는 전세계 226개 국가, 7천만 다운로드를 달성한 모임 앱입니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-4">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h5 class="card-title font-bold">파파고(통역하는 신기한 앵무새)</h5>
+                        <p class="card-text">네이버 자체 기술로 만들어진 파파고(papago)는 음성인식, 음성합성, 기계번역, 문자인식 등의 기술이 집약된 자동 통역 앱입니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="text-green-600 font-bold" href="https://www.navercorp.com/service/serviceMain">네이버(주) 주요 서비스 소개 사이트</a>
+    </div>
+</section>
+
+
+    <!-- tech Section -->
+    <section id="tech" class="py-20">
+        <div class="container">
+            <h2 class="mt-4 text-3xl font-bold text-green-600">주요 기술</h2><br>
+            <p class="font-bold">SEARCH TECH - 진화된 검색 경험을 제공하는
+                검색 기술</p>
+            <ul class="list-disc mt-1 pl-6">
+                <li>AI 맞춤형 검색</li>
+                <li>AI 추천 기술</li>
+                <li>AI 컨텐츠 검색 기술</li>
+            </ul>
+        </form>
+        <br>
+        <p class="font-bold">ROBOTICS - 사람과의 자연스런 공존을 위한 로봇 기술</p>
+            <ul class="list-disc pl-6">
+                <li>ARC</li>
+                <li>NAVER Robots</li>
+            </ul>
+        </form>
+        <br>
+        <p class="font-bold">DIGITAL TWIN - 현실 세계를 그대로 복제하는 디지털 트윈 기술</p>
+            <ul class="list-disc mt-1 pl-6">
+                <li>디지털 트윈</li>
+                <li>공간 디지털 트윈 제작 솔루션</li>
+                <li>디지털 트윈 디바이스</li>
+                <li>기술 공유와 동반성장</li>
+            </ul>
+        </form>
+        <br>
+        <p class="font-bold">DATA CENTER GAK - 미래 가치를 담은 데이터를 안전하게 보관하는 네이버 데이터센터 각</p>
+            <ul class="list-disc mt-1 pl-6">
+                <li>데이터 센터</li>
+                <li>각 세종</li>
+                <li>각 춘천</li>
+                <li>글로벌 리전</li>
+            </ul>
+        </form>
+        <br>
+        <a class="text-green-600 font-bold" href="https://www.navercorp.com/tech/techMain">네이버(주) 주요 기술 소개 사이트</a>
+        </div>
+    </section>
+
+    <!-- ethics -->
+    <section id="ethics" class="bg-gray-50 py-20">
+        <div class="container">
+            <h2 class="text-3xl font-bold text-green-600">기업 윤리</h2>
+            <div class="row mt-4">
+                <!-- 서비스 카드 -->
+                <div class="col-12 mb-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold">임직원</h5>
+                            <p class="card-text">모든 임직원을 능력과 성과에 따라 합리적으로 대우하며, 차별 없이 평등하게 일할 수 있는 기회를 제공합니다. 임직원의 다양성을 인정하고 존중하며, 능력을 최대한 발휘할 수 있도록 최상의 근무 환경과 책임을 다하는 기업 문화를 조성합니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold">파트너·경쟁사</h5>
+                            <p class="card-text">파트너사와의 모든 거래에서 합리적인 거래 조건을 보장하며 지속가능한 방향으로 상생할 수 있는 인터넷 생태계를 조성해 나갑니다. 경쟁사와는 상호 존중을 기반으로 공정한 거래 질서를 유지하고, 선의의 경쟁을 통해 함께 발전해 나갑니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold">사회</h5>
+                            <p class="card-text">기업시민으로서 지역사회의 법규 및 사회적 가치관을 존중하며, 다양한 사회공헌 활동 등을 통해 사회적 책임을 다합니다. 회사의 이익과 사회적 가치가 상충될 때는 사회적 가치를 우선적으로 고려합니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold">고객</h5>
+                            <p class="card-text">고객이 원하는 가치를 경영활동의 최우선 판단 기준으로 여기며, 고객에게 도움이 되는 가치를 끊임없이 찾고 만들어 냅니다. 고객과 정직하게 소통해 신뢰를 얻고 고객의 의견에 항상 귀 기울입니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold">주주</h5>
+                            <p class="card-text">정당하고 안정적인 이익을 실현하는 경영 활동을 통해 주주의 가치를 높입니다. 주주와의 신뢰를 유지하기 위해 투명성을 제고하고 필요한 경영 정보를 제 때에 제공합니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <section class="bg-green-600 text-white text-center py-20">
+                    <div class="container">
+                        <h1 class="text-4xl font-bold">네이버는 기업윤리를 철저히 실천해 나가고 있습니다. 파트너가 창의성을 펼치고 사용자를 보호하며 사회 전반의 균형 있는 발전을 이룰 수 있도록 공정거래 관련 법규를 포함한 제반 규범을 준수합니다.</h1>
+                        <p class="mt-4">CEO의 규범준수 및 윤리경영 약속</p>
+                    </div>
+                </section>
+            </div>
+            <a class="text-green-600 font-bold" href="https://www.navercorp.com/esg/ethics">네이버(주) 기업 윤리 소개 사이트</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="container">
+            <h2 class="text-3xl font-bold text-green-600">문의하기</h2>
+            <p class="mt-4">이메일: support@naver.com | 전화: 010 1234 5678 </p>
+            <hr>
+            <a class="text-green-600 font-bold" href="https://recruit.navercorp.com/">네이버 채용 사이트</a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-green-600 text-white text-center py-4">
+        <p>&copy; 경성대학교 소프트웨어학과 손영빈(2021663041)</p>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
